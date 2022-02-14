@@ -1,0 +1,4 @@
+services:
+  specbee_timer.timezone:
+    class: Drupal\specbee_timer\Services\SpecBeeTimeZone
+    arguments: ['@config.factory']

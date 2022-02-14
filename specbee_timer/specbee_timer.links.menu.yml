@@ -1,0 +1,5 @@
+specbee_timer.timer_config:
+  title: SpecBee TimeZone Config
+  parent: system.admin_config_system
+  route_name: specbee_timer.timer_config
+  weight: 10

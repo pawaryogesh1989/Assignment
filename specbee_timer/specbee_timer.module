@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_timer_theme($existing, $type, $theme, $path) {
+
+  return [
+    'specbee_timer_block' => [
+      'template' => 'specbee-timer-block',
+      'path' => $path . '/templates',
+      'variables' => [
+        'country' => '',
+        'city' => '',
+        'datetime' => '',
+      ],
+    ],
+  ];
+
+
+}

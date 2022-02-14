@@ -1,0 +1,8 @@
+name: 'SpecBee Timer'
+description: 'Module to display time for selected TimeZone.'
+core: 8.x
+package: Custom
+type: module
+version: 1.0
+dependencies:
+  - drupal:block
